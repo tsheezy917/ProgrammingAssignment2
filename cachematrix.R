@@ -1,6 +1,9 @@
-##  this function creates a matrix that makes it possible to cache the ## solution to the inverse of a matrix.  It does so by creating a        ## list of functions that allow you to get, set the values depending ## on whether it's cached.
+##  this function creates a matrix that makes it possible to cache the 
+## solution to the inverse of a matrix.  It does so by creating a        
+## list of functions that allow you to get, set the values depending ## on whether it's cached.
 
-## when called w/invertible matrix argument it creates a list of     ## functions that can be accessed by the cacheSolve function
+## when called w/invertible matrix argument it creates a list of     
+## functions that can be accessed by the cacheSolve function
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
